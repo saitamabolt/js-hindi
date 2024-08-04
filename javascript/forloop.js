@@ -16,13 +16,36 @@ const lang=["eng","hindi","arabic","japanese"]
 
 // ++++++++++++++++++++++++++++++++++++++++++ USIGNG FUNCION REFERENCE ++++++++++++++++++++++++
 
-function toPrint(names){
-    console.log(names);
+// function toPrint(names){
+//     console.log(names);
     
-}
-lang.forEach(toPrint) //only need to write function no need to excute by writing toPrint() like
+// }
+// lang.forEach(toPrint) //only need to write function no need to excute by writing toPrint() like
 
-name.forEach((toPrint,index,Array)=>{
-    console.log(toPrint,index,Array);
+// name.forEach((toPrint,index,Array)=>{
+//     console.log(toPrint,index,Array);
     
+// })
+
+const myCoding=[
+    { 
+        name:"javascript",
+        type:"js"
+
+    },
+    { 
+        name:"java",
+        type:"java"
+
+    },
+    { 
+        name:"python",
+        type:"py"
+
+    }
+]
+myCoding.forEach( (items)=>{
+    console.log(items.name)
 })
+
+// USING FOREACH  WE CAN ACCESS OBEJCT ISIDE ARRAY 
